@@ -1,5 +1,6 @@
 class String
   def find_and_replace(input1, input2)
+    # return self.gsub(input1, input2) -- This is the one line version. Wow we may have overthought this.
     array_self = self.split('')
     array_filter = input1.split('')
     array_replace = input2.reverse.split('')
